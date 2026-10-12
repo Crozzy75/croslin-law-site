@@ -1,0 +1,9 @@
+{
+  "name": "croslin-law-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Croslin Law website. Blog posts are written as simple text files and built into pages automatically.",
+  "scripts": { "build": "node build-blog.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "marked": "12.0.2" }
+}
